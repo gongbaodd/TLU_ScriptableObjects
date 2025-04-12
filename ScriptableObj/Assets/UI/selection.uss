@@ -58,6 +58,7 @@
 .portrait {
     flex-grow: 1;
     flex-basis: 50%;
+    background-size: contain;
 }
 
 .selected {
@@ -66,7 +67,7 @@
     flex-shrink: 0;
 }
 
-.selected .item {
+.selected .item-template {
     height: 100%;
     flex-basis: 99%;
 }
