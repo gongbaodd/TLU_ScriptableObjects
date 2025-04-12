@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="item" src="project://database/Assets/UI/item.uxml?fileID=9197481963319205126&amp;guid=393a024b50292e04fbe4f58e383ea55d&amp;type=3#item" />
+    <Style src="project://database/Assets/UI/selection.uss?fileID=7433441132597879392&amp;guid=e1efc4bce435f6a4cae2878a64825948&amp;type=3#selection" />
+    <engine:VisualElement name="panel" class="main">
+        <engine:VisualElement name="left" class="selection">
+            <engine:Instance template="item" class="item-template" style="display: none;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="right" class="selected" />
+    </engine:VisualElement>
+</engine:UXML>

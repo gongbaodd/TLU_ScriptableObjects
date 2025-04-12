@@ -1,0 +1,29 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Button name="item" class="item" style="flex-direction: column;">
+        <engine:VisualElement name="top" class="row brief" style="flex-grow: 1;">
+            <engine:VisualElement name="desc" class="desc">
+                <engine:Label text="name" name="name" />
+                <engine:Label text="description" name="description" class="description" />
+            </engine:VisualElement>
+            <engine:VisualElement name="portrait" class="portrait" />
+        </engine:VisualElement>
+        <engine:VisualElement name="states" class="row states">
+            <engine:VisualElement name="state" class="row state">
+                <engine:Label text="Str" />
+                <engine:Label text="Label" name="strength" />
+            </engine:VisualElement>
+            <engine:VisualElement name="state" class="row state">
+                <engine:Label text="Cha" />
+                <engine:Label text="Label" name="charisma" />
+            </engine:VisualElement>
+            <engine:VisualElement name="state" class="row state">
+                <engine:Label text="Int" />
+                <engine:Label text="Label" name="intelligence" />
+            </engine:VisualElement>
+            <engine:VisualElement name="state" class="row state">
+                <engine:Label text="Knw" />
+                <engine:Label text="Label" name="knowledge" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:Button>
+</engine:UXML>

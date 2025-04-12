@@ -1,0 +1,77 @@
+.main {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.row {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.item {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-direction: row;
+    flex-basis: initial;
+    height: 100%;
+}
+
+.description {
+    flex-shrink: 0;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    -unity-text-align: upper-left;
+    white-space: pre-wrap;
+}
+
+.states {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.state {
+    flex-grow: 1;
+    flex: 0 0 50%;
+}
+
+.brief {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.selection {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+.desc {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.portrait {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.selected {
+    flex-grow: 1;
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+.selected .item {
+    height: 100%;
+    flex-basis: 99%;
+}
+
+.item-template {
+    height: 48%;
+    flex-basis: 48%;
+}
